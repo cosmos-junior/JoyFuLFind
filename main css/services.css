@@ -1,0 +1,90 @@
+#vip{
+display: flex;
+border-radius: 30px;
+background-color: blanchedalmond;
+}
+#vip:hover{
+    background-color: aquamarine;
+}
+h1{
+    background-color: brown;
+    text-shadow: 8px 8px 8px aliceblue;
+    text-align: center;
+}
+#gift{
+    display: flex;
+    border-radius: 30px;
+    background-color: aqua;
+}
+#gift:hover{
+    background-color: beige;
+}
+
+#heading1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aqua;
+}
+.l1{
+    font-weight: bold;
+}
+
+#vip img{
+    margin-right: 30px;
+}
+#major{
+    display: flex;
+    width: 100%;
+    max-width: var(--max-width);
+    gap: var(--gap);
+    align-items: stretch;
+    justify-content: space-between;
+}
+#major.img{
+    padding: 2px;
+}
+
+#card{
+    background:var(--card-bg);
+    padding:28px 20px;
+    flex:1 1 0;
+    min-width:0;
+    text-align:left;
+    box-shadow:0 6px 18px rgba(15,23,42,0.06);
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+  
+#car_img{
+    width:130px;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:80px;
+    margin-top: 80px;
+    object-fit: contain;
+}
+h3{
+    margin:0 0 12px 0;
+    font-size:18px;
+    font-weight:700;
+}
+ul{
+     margin:0;
+    padding-left:18px;
+    color:var(--muted);
+    line-height:1.6;
+    font-size:14px;
+}
+li{
+    margin-bottom: 8px;
+}
+#p1{
+     margin:0 0 10px 0;
+    color:var(--muted);
+    font-size:14px;
+    font-weight: bold;
+}

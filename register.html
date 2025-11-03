@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page - JoyFuLFind</title>
+    <link rel="stylesheet" href="main css/register.css">
+</head>
+<body>
+    <form action="">
+       <legend>Sign Up With JoyFuLFind</legend>
+       <br><br>
+       <label for="fullname">FullName:</label>
+       <input type="text" placeholder="e.g John Doe" id="fullname" required>
+    <br><br>
+    <label for="username">UserName:</label>
+    <input type="text" placeholder="e.g @KE254" id="username" required>
+    <br><br>
+
+    <label for="email">Email: </label>
+    <input type="email" placeholder=" Example@gmail.com" id="email" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter password..." id="password" required>
+    <br><br>
+
+    <label for="DOB">Date Of Birth</label>
+    <input type="date" placeholder="birthday" id="DOB" required>
+    <br><br>
+
+    <label for="dt">Date And Time:</label>
+    <input type="datetime-local" name="date and time" id="dt" required>
+    <br><br>
+
+    <label for="contact">Phone Number</label>
+    <input type="tel" placeholder=" e.g +254 788899999" id="contact" required>
+    <br><br>
+
+    <!--Drop down-->
+     
+    <label for="nationality">Select Nationality:</label>
+    <select name="" id="nationality">
+        <option value="" disabled>--Choose One--</option>
+        <option value="">Kenyan</option>
+        <option value="">Italian</option>
+        <option value="">German</option>
+        <option value="">American</option>
+        <option value="">French</option>
+        <option value="">European</option>
+        <option value="">Chinesse</option>
+    </select>
+    <br><br>
+
+    <p>Choose your favourote football team.</p>
+    <input type="radio" id="Arsenal" name="team">
+    <label for="Arsenal">Arsenal</label>
+    <br>
+    <input type="radio" id="manu" name="team">
+    <label for="manu">Man U</label><br>
+    <input type="radio" id="chelsea" name="team">
+    <label for="chelsea">Chelsea</label> 
+    <br><br>
+
+    <p>Select web programming languages:</p>
+    <input type="checkbox" id="java" name="java">
+    <label for="java">Java</label><br>
+    <input type="checkbox" id="C#" name="C#">
+    <label for="C#">C#</label><br>
+    <input type="checkbox" id="PHP" name="php">
+    <label for="PHP">PHP</label><br>
+    <input type="checkbox" id="javascript" name="js">
+    <label for="javascript">JavaScript</label><br>
+    <br><br>
+    <label for="whoami">Description</label><br>
+    <textarea name="" id="whoami" cols="30" rows="10" placeholder="Type here..."></textarea><br><br>
+    <button type="submit">Create Account</button>
+
+    </form>
+</body>
+</html>
