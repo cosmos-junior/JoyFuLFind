@@ -10,7 +10,7 @@ button{
     width: 180px;
     padding: 20px;
     margin-left: 400px;
-    border-radius: 10px;
+    border-radius: 20px;
     align-self: center;
 }
 button:hover{

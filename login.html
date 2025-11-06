@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <h1 class="text-center text-secondary">Login Form(bootstrap)</h1>
+
+    <form action="" class="row g-3 m-5 rounded ">
+    <div class=" col-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" placeholder="Enter Email" id="email" required class="form-control">
+    </div>
+
+    <div class=" col-6">
+        <label for="duration" class="form-label">Password</label>
+        <input type="password" placeholder="Enter Password" id="password" required class="form-control">
+    </div>
+
+    <div class="col-12">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" placeholder="1236 Main 51" id="address" required class="form-control">
+    </div>
+
+    <div class="col-12 ">
+        <label for="address2" class="form-label">Address 2</label>
+        <input type="text" placeholder="Apartment, Studio, or floor." id="address2" class="form-control">
+    </div>
+
+    
+    <div class="col-md-6">
+        <label for="city" class="form-label">City</label>
+        <input type="text" placeholder="Enter City" id="city" required class="form-control">
+    </div>
+
+    <div class="col-md-4">
+        <label for="state" class="form-label">State</label>
+        <select name="state" id="state" class="form-select" required>
+            <option value="" disabled selected>Choose...</option>
+            <option value="westlands">Westlands</option>
+            <option value="nyamasaria">Nyamasaria</option>
+            <option value="kondele">Kondele</option>
+            <option value="nairobi">Nairobi</option>
+            <option value="industrial_area">Industrial Area</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="eldoret">Eldoret</option>
+            <option value="milimani">Milimani</option>
+            <option value="oregon">Oregon</option>
+            <option value="virginia">Virginia</option>
+            <option value="washington">Washington</option>
+            <option value="runda">Runda</option>
+
+        </select>
+    </div>
+
+    <div class="col-md-2">
+        <label for="zip" class="form-label">Zip</label>
+        <input type="text" placeholder="Enter Zip" id="zip" required class="form-control">
+    </div>
+
+    
+    <div class="form-check col-12">
+            <input type="checkbox" class="form-check-input" id="checkme">
+            <label for="checkme" class="form-check-label">Check me out</label>
+    </div>
+
+    <div class="col-12 ">
+        <button type="submit" class="btn btn-primary mt-3">Sign In</button>
+    </div>
+
+    </form>
+
+
+
+</body>
+</html>
